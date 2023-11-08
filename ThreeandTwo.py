@@ -27,4 +27,4 @@ st.subheader("Welcome to the James' Three and Two Baseball Results")
 
 st.write("The below shows results from the 2023 MLB Season 👇")
 
-st.dataframe(formatted_bb, height=1000, hide_index=True)
+st.dataframe(formatted_bb, height=2000, hide_index=True)
