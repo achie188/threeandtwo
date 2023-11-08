@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "threeandtwo"
+version = "0.1.0"
+description = ""
+authors = ["Graeme Acheson <graeme@sports4cast.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+sportinf = "^1.1.2"
+pandas = "^2.1.2"
+numpy = "^1.26.1"
+streamlit = "^1.28.1"
+gspread = "^5.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
