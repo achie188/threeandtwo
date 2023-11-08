@@ -16,7 +16,7 @@ def format_results(df):
     df = df.sort_values(by='Date', ascending=False)
 
     #column order
-    df = df[['Date', 'Time', 'Match', 'Home', 'H', 'A', 'Away']]
+    df = df[['Date', 'Time', 'Home', 'H', 'A', 'Away']]
 
     return df
 
