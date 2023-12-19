@@ -286,6 +286,22 @@ google-auth = ">=1.12.0"
 google-auth-oauthlib = ">=0.4.1"
 
 [[package]]
+name = "gspread-dataframe"
+version = "3.3.1"
+description = "Read/write gspread worksheets using pandas DataFrames"
+optional = false
+python-versions = "*"
+files = [
+    {file = "gspread-dataframe-3.3.1.tar.gz", hash = "sha256:2f8435be07c03b5a92c48ba1dd7aee14f23ada1660da8338219459a92652312e"},
+    {file = "gspread_dataframe-3.3.1-py2.py3-none-any.whl", hash = "sha256:0a1616f3be82005b0d1099f86210df6b47814c1250d17e97ea7bcce7a456f4f0"},
+]
+
+[package.dependencies]
+gspread = ">=3.0.0"
+pandas = ">=0.24.0"
+six = ">=1.12.0"
+
+[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -1280,4 +1296,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "3.11.5"
-content-hash = "9e26f3ddf43c1f4760cd18b5e53c69ef5918194ad2e56cdd76989373ee61a3d2"
+content-hash = "ed2dce8cfad85a90d916edbf2b41e713d941e2eb8f4aa10913dad50b51b98238"

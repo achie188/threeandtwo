@@ -13,7 +13,7 @@ def format_results(df):
 
 
     #arrange by date
-    df = df.sort_values(by='Date', ascending=False)
+    df = df.sort_values(by='Date', ascending=True)
 
     #column order
     df = df[['Date', 'Time', 'Home', 'H', 'A', 'Away']]
